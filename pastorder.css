@@ -1,0 +1,192 @@
+body{
+    font-family: "lato",'poppins',sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+
+
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 0 25px;
+    background-color: #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo{
+    color: #fff;
+    font-size: 24px;
+}
+.search{
+    background-color: #eee;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 5px black;
+
+}
+  
+.container a{
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+ .container a:hover{
+    text-decoration:underline;
+ }
+.cart-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.cart-message {
+    font-size: 16px;
+    color: #333;
+}
+
+.cart-message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cart-message a:hover {
+    text-decoration: underline;
+}
+
+
+ .about{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e6f2ff;
+    padding: 5px 0 5px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer {
+  background-color: #003366;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  color:white;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-column a:hover {
+  color:orange;
+  text-decoration: underline;
+}
+
+.download-heading {
+  color: orange;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.google-play {
+  width: 130px;
+  margin-top: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:orange;
+}
+
+/* Copyright */
+.footer-copy {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .footer-column ul {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,273 @@
+body{
+    font-family: "lato",'poppins',sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    border: solid #003366;
+    border-radius:23px 23px 0 0 ;
+    max-width: 1650px;
+    
+}
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 0 25px;
+    background-color: #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo{
+    color: #fff;
+    font-size: 24px;
+}
+.search{
+    background-color: #eee;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 5px black;
+
+}
+  
+.container a{
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+ .container a:hover{
+    text-decoration:underline;
+ }
+
+
+ .menu{
+    max-width: 100%;
+    
+     margin:auto;
+    padding: 0 25px;
+    background-color: #1c2c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:static;
+    top: 0;
+
+
+ }
+ .menu a{
+  color: white;
+  padding: auto;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 10px;
+  }
+ .menu a:hover{
+  text-decoration: underline;
+ }
+
+.sidenav {
+  height: 100%;
+  width:25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #003366;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px; width:50% ;}
+  .sidenav a {font-size: 10px;}
+}
+
+.Book-grid{
+  
+    max-width: 1450px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+}
+.book-card{
+    background:white ;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #333;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.book-card img{
+    height: 150.45px;
+    width: 107.5px;
+}
+.book-card button{
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-card button:hover{
+    background-color: orange;
+}
+
+.book-card a{
+   text-decoration: none;
+   color: white;
+}
+.book-card a:hover{
+  text-decoration: #003366;
+}
+
+ .about{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e6f2ff;
+    padding: 5px 0 5px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer {
+  background-color: #003366;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  color:white;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-column a:hover {
+  color:orange;
+  text-decoration: underline;
+}
+
+.download-heading {
+  color: orange;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.google-play {
+  width: 130px;
+  margin-top: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:orange;
+}
+
+/* Copyright */
+.footer-copy {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .footer-column ul {
+    padding-left: 0;
+  }
+}
